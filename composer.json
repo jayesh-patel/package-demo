@@ -1,0 +1,15 @@
+{
+    "name": "aureate/hello-world-package",
+    "description": "A hello world composer private package.",
+    "autoload": {
+        "psr-4": {
+            "AureateLabs\\HelloWorldPackage\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [{
+		"type": "composer",
+		"url": "https://packages.aureatelabshq.com"
+    }]
+}
