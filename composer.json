@@ -1,5 +1,6 @@
 {
     "name": "aureate/hello-world-package",
+    "version":"1.0.0",
     "description": "A hello world composer private package.",
     "autoload": {
         "psr-4": {
